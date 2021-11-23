@@ -9,16 +9,18 @@
 </head>
 <body>
     <h1>Välj dag för att se meny, obs stängt på helger</h1>
-    <select id="dagar">
-        <option value="måndag">Måndag</option>
-        <option value="tisdag">Tisdag</option>
-        <option value="onsdag">Onsdag</option>
-        <option value="torsdag">Torsdag</option>
-        <option value="fredag">Fredag</option>
-        <option value="lördag">Lördag</option>
-        <option value="söndag">Söndag</option>
-      </select>
-      <h2>Idag serverar vi:</h2>
+        <select id="dagVal">
+            <option value="0">Måndag</option>
+            <option value="1">Tisdag</option>
+            <option value="2">Onsdag</option>
+            <option value="3">Torsdag</option>
+            <option value="4">Fredag</option>
+            <option value="5">Lördag</option>
+            <option value="6">Söndag</option>
+        </select>
+    <button id="myBtn">Byt dag</button>
+    <h2>Idag serverar vi:</h2>
+    <div id="dagensMat"></div>
     
 </body>
 </html>
